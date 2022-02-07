@@ -1,0 +1,29 @@
+{
+  "name": "captive-js-lint",
+  "version": "1.0.0",
+  "description": "Linter configuration eslint, prettier and stylelint according Captive's rules",
+  "main": "index.js",
+  "author": "info@captive.fr",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^8.5.0",
+    "prettier": "^2.5.1",
+    "stylelint": "^14.2.0"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "postcss": "8",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.1.0"
+  },
+  "bin": {
+    "init-captive-js-lint": "./init-config/index.js"
+  }
+}
